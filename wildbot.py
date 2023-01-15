@@ -9,7 +9,7 @@ client = discord.Client(intents=discord.Intents.all())
 
 @bot.event
 async def on_ready():
-    print('Bot ready ✅')
+    print('Bot ready')
 
 @bot.event
 async def on_member_join(member):
