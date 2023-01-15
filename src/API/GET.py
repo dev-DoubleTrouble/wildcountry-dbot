@@ -11,4 +11,4 @@ class Channel:
                 for channel in bot.guilds[0].channels:
                     if channel.name.startswith(name): return channel
 
-print("GET.py ✅")
+print("GET.py")
